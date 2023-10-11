@@ -1,1 +1,95 @@
-/* место для вашего кода */
+@import url(/fonts/fonts.css);
+/* Блок header */
+.header {
+  display:flex;
+  min-width:1100px;
+  max-width:1340px;
+  height:109px;
+  margin:92px 49px auto 51px;
+  font-family: Raleway;
+  font-weight: normal;
+  font-style:normal;
+}
+.header__logo {
+  margin:0 auto auto auto;
+  width:148px;
+  height:105px;
+}
+.header__logo_image {
+  margin:0 auto auto auto;
+}
+.header__menu-list {
+  display:flex;
+  justify-items: left;
+  margin:auto 0 auto 0;
+  padding:0;
+  width:388px;
+  height:23px;
+}
+.markers li::marker {
+  margin:0 0 0 12px;
+  color:black;
+  font-weight: bold;
+}
+.header__menu-list_first_text {
+  margin:auto 0 auto 0;
+  list-style-type: none;
+  line-height: 21px;
+}
+.header__menu-list_text {
+  margin: auto 0 auto 32px;
+  text-decoration: underline;
+  list-style-type: circle;
+  line-height: 21px;
+}
+.header__contacts-list {
+  display:flex;
+  flex-direction: column;
+  justify-content: right;
+  margin:auto 0 auto 0;
+  width:240px;
+  height:97px;
+  font-style:normal;
+}
+.header__contacts-list_info {
+  width:100%;
+  height:24px;
+  text-decoration: underline;
+}
+.header__contacts-list_info_last {
+  height:49px;
+}
+/* Конец блока header */
+
+/* Секция Cover */
+.cover {
+  display:flex;
+  margin: 92px 0 0 0;
+  min-width:1100px;
+  max-width:1440px;
+  max-height:757px;
+}
+.cover__image {
+  width:100%;
+  height:100%;
+  filter:brightness(60%);
+  z-index: 0;
+}
+.cover__text_place {
+  min-width:1000px;
+  max-width:1340px;
+  height:355px;
+  font-weight: bold;
+  line-height:100%;
+  letter-spacing: 60%;
+  color:white;
+}
+.cover__text_first {
+
+}
+.cover__text_two {
+
+}
+.cover__text_three {
+
+}
