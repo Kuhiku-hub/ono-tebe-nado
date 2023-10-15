@@ -12,4 +12,4 @@
 
 Ссылка на сайт репозитория (https://kuhiku-hub.github.io/ono-tebe-nado/)
 
-Ссылка на репозиторий (https://github.com/Kuhiku-hub/ono-tebe-nado)
+Ссылка на репозиторий (https://github.com/Kuhiku-hub/ono-tebe-nado/tree/main)
