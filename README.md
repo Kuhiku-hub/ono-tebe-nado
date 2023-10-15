@@ -9,3 +9,5 @@
 * CSS
   * Flexbox-layout
 * Git
+
+Ссылка на сайт репозитория (https://kuhiku-hub.github.io/ono-tebe-nado/)
