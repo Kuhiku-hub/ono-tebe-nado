@@ -1,4 +1,3 @@
-
 /* Блок header */
 .header {
   display: flex;
@@ -6,13 +5,13 @@
   width: 1340px;
   min-height: 109px;
   margin: 92px 49px auto 51px;
-  font-family: Raleway ,sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 .header__logo {
   display: flex;
-  margin:0 auto auto auto;
+  margin: 0 auto auto auto;
   width: 148px;
   height: 105px;
 }
@@ -38,7 +37,7 @@
 .menu-list__text_first {
   margin: auto auto 0 auto;
   list-style-type: none;
-  font-size:18px;
+  font-size: 18px;
   line-height: 21px;
   text-decoration: none;
 }
@@ -49,7 +48,7 @@
 .menu-list__text {
   display: inline-block;
   text-decoration: underline;
-  font-size:18px;
+  font-size: 18px;
   line-height: 21px;
 }
 .contacts-list {
@@ -59,8 +58,8 @@
   margin: auto 0 auto 0;
   width: 240px;
   font-style: normal;
-  line-height:24.3px;
-  font-size:18px;
+  line-height: 24.3px;
+  font-size: 18px;
 }
 .contacts-list_info {
   text-decoration: underline;
@@ -87,12 +86,12 @@
 }
 .cover__text_place {
   margin: 165px 50px auto 50px;
-  display:grid;
+  display: grid;
   width: 1340px;
   min-height: 355px;
   font-weight: bold;
   color: white;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 .cover__text_first {
   text-align: left;
@@ -127,7 +126,7 @@
   letter-spacing: 0;
 }
 .cover__context_place {
-  display:flex;
+  display: flex;
 }
 .cover__button {
   display: flex;
@@ -145,10 +144,10 @@
   text-transform: uppercase;
 }
 .cover__context {
-  margin:auto 78px 62px auto;
+  margin: auto 78px 62px auto;
   display: flex;
   color: white;
-  white-space:pre;
+  white-space: pre;
   text-transform: uppercase;
   font-size: 22px;
   line-height: 28px;
@@ -174,7 +173,7 @@
   grid-column-gap: 25px;
   color: white;
 }
-@media screen and (max-width:1001px) {
+@media screen and (max-width: 1001px) {
   .lots__cards {
     grid-template-columns: repeat(1, 430px);
     justify-content: center;
@@ -187,17 +186,17 @@
   background-repeat: no-repeat;
   min-height: 450px;
 }
-.first_image{
+.first_image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0 0),
-  url(/images/card-lot-01.jpg);
+    url(/images/card-lot-01.jpg);
 }
-.middle_image{
+.middle_image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0 0),
-  url(/images/card-lot-02.jpg);
+    url(/images/card-lot-02.jpg);
 }
 .last_image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0 0),
-  url(/images/card-lot-03.jpg);
+    url(/images/card-lot-03.jpg);
 }
 .lots__cards_title {
   margin: 50px 40px auto 40px;
@@ -294,7 +293,7 @@
 .footer__menu-list_text_place {
   list-style: none;
   text-align: center;
-  margin:0;
+  margin: 0;
 }
 .footer__social_logo-area {
   margin: 0 0 auto auto;
