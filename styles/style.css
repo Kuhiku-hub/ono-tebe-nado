@@ -68,7 +68,7 @@
 /* Конец блока header */
 /* main */
 .main {
-  margin:0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 /* Секция Cover */
@@ -173,23 +173,23 @@
 }
 .lots__cards_link {
   text-decoration: none;
-  max-width:430px;
+  max-width: 430px;
   display: flex;
 }
 .lots__cards_item {
-  position:relative;
+  position: relative;
   display: flex;
   flex-direction: column;
-  min-height:450px;
-  min-width:430px;
-  flex-grow:1;
+  min-height: 450px;
+  min-width: 430px;
+  flex-grow: 1;
   flex-basis: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index:-1;
+  z-index: -1;
 }
 .cover__dark_image {
-  position:absolute;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
@@ -197,7 +197,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0 0);
   background-size: contain;
   background-repeat: no-repeat;
-  max-width:430px;
+  max-width: 430px;
   z-index: 0;
 }
 .first_image {
@@ -221,7 +221,7 @@
 }
 .lots__cards_text {
   margin: auto 40px 50px 40px;
-  text-decoration:none;
+  text-decoration: none;
   font-size: 20px;
   width: 350px;
   line-height: 120%;
@@ -229,7 +229,7 @@
 }
 .lots__button {
   margin: 30px 0 0 40px;
-  display:block;
+  display: block;
   text-decoration: underline;
   font-size: 20px;
   width: 192px;
@@ -276,7 +276,7 @@
   width: 100%;
 }
 .auction__textarea_text:last-child {
-  margin: 25px 0 0 0 ;
+  margin: 25px 0 0 0;
 }
 /* Конец секции AUCTION */
 /* Начало блока FOOTER */
